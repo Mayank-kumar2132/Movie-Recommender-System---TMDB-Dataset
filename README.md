@@ -50,6 +50,15 @@ Once the similarity matrix is built, we can recommend movies based on the highes
 - `nltk`: For natural language processing tasks like tokenization.
 - `numpy`: For efficient mathematical operations.
 
+#Contributing
+Feel free to open a pull request or issue if you have any suggestions for improvement!
+
+License
+This project is licensed under the MIT License.
+#
+This file covers the project overview, dataset, steps for building the system, installation instructions, and other key details. You can upload it to your GitHub repository to guide others through your movie recommender system project.
+
+
 ## Code Example
 
 ```python
@@ -91,10 +100,3 @@ def get_recommendations(title, cosine_sim=cosine_sim):
 # Example usage:
 print(get_recommendations('Avatar'))
 
-#Contributing
-Feel free to open a pull request or issue if you have any suggestions for improvement!
-
-License
-This project is licensed under the MIT License.
-#
-This file covers the project overview, dataset, steps for building the system, installation instructions, and other key details. You can upload it to your GitHub repository to guide others through your movie recommender system project.
